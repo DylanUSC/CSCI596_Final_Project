@@ -11,7 +11,7 @@ Coulomb Interactions:
 
 ![](https://latex.codecogs.com/svg.latex?\begin{equation}\mathbf{f}_{i}=q_{i}%20\sum_{j=1%20\atop%20j%20\neq%20i}^{N}%20q_{j}%20\frac{\mathbf{x}_{i}-\mathbf{x}_{j}}{\left\|\mathbf{x}_{i}-\mathbf{x}_{j}\right\|^{3}},%20\quad%20i=1,%20\ldots,%20N\end{equation})
 
-Direction calculation: $O(N^2)$
+Direct Calculation: $O(N^2)$
 
 Barnes–Huts Tree method:
 
