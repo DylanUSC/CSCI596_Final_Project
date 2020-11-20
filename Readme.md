@@ -30,7 +30,7 @@ $\phi(\mathbf{r})=\sum_{i=1}^{k} \frac{q_{i}}{\left\|\mathbf{r}-\mathbf{r}_{i}\r
 
 ### Attempt 1:
 
-Implement parallelized FMM into our ionic liquid simulation code including injecti
+Implement parallelized FMM into our ionic liquid simulation code.
 
 ### Attempt 2:
 
