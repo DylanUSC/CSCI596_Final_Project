@@ -40,7 +40,7 @@ Attemp to implement FMM on GPU based on  Kohnke et at JCTC, 2020.
 
 Vectorisation (Pfalzner and Gibbon 2005)
 
-![](https://cdn.mathpix.com/snip/images/UUqd3py5dFTNiO9EGaEGw3lNIq2yN1CqsaOSKdYqfj0.original.fullsize.png)
+![](https://cdn.mathpix.com/snip/images/CzwPWY26QGvEW49hBqQBBeJropclgY2Rtvrop1jCo5I.original.fullsize.png)
 
 ## Reference:
 
