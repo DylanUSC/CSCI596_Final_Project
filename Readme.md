@@ -7,7 +7,9 @@ Ziyu Huang
 
 Coulomb Interactions:
 
-$\mathbf{f}_{i}=q_{i} \sum_{j=1 \atop j \neq i}^{N} q_{j} \frac{\mathbf{x}_{i}-\mathbf{x}_{j}}{\| \mathbf{x}_{i}-\mathbf{x}_{j}||^{3}}, \quad i=1, \ldots, N$
+
+
+![](https://latex.codecogs.com/svg.latex?\begin{equation}\mathbf{f}_{i}=q_{i}%20\sum_{j=1%20\atop%20j%20\neq%20i}^{N}%20q_{j}%20\frac{\mathbf{x}_{i}-\mathbf{x}_{j}}{\left\|\mathbf{x}_{i}-\mathbf{x}_{j}\right\|^{3}},%20\quad%20i=1,%20\ldots,%20N\end{equation})
 
 Direction calculation: $O(N^2)$
 
@@ -26,15 +28,23 @@ Barnes–Huts Tree method:
 $\phi(\mathbf{r})=\sum_{i=1}^{k} \frac{q_{i}}{\left\|\mathbf{r}-\mathbf{r}_{i}\right\|}=\sum_{n=0}^{\infty} \mathbf{M}^{\{n\}}: \mathbf{\nabla}^{\{n\}} \frac{1}{r}$ with $\mathbf{M}^{\{n\}}=\sum_{i=1}^{k}(-1)^{n} \frac{q_{i}}{n !} \mathbf{r}_{i}^{\{n\}}$
 
 
-### Goal 1:
+### Attempt 1:
 
 Implement parallelized FMM into our ionic liquid simulation code including injecti
 
-### Goal 2:
+### Attempt 2:
 
 Attemp to implement FMM on GPU based on  Kohnke et at JCTC, 2020.
 
+### Attempt 3:
+
+Vectorisation (Pfalzner and Gibbon 2005)
+
+![](https://cdn.mathpix.com/snip/images/UUqd3py5dFTNiO9EGaEGw3lNIq2yN1CqsaOSKdYqfj0.original.fullsize.png)
+
 ## Reference:
 
-Kohnke, Bartosz, Carsten Kutzner, and Helmut Grubmüller. "A GPU-accelerated Fast Multipole Method for GROMACS: performance and accuracy." Journal of Chemical Theory and Computation (2020).
+[1] Kohnke, Bartosz, Carsten Kutzner, and Helmut Grubmüller. "A GPU-accelerated Fast Multipole Method for GROMACS: performance and accuracy." Journal of Chemical Theory and Computation (2020).
+
+[2] Pfalzner, Susanne, and Paul Gibbon. Many-body tree methods in physics. Cambridge University Press, 2005.
 
