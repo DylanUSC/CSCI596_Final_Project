@@ -2,7 +2,7 @@
 
 Ziyu Huang
 
-## N-body simulation of Coulomb interactions
+## N-body simulation (Coulomb interactions)
 
 
 Coulomb Interactions:
